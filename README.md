@@ -6,6 +6,8 @@
 
 > macOS 12.4
 >
+> 3.1 GHz Dual-Core Intel Core i5
+> 
 > Apple clang version 13.1.6 (clang-1316.0.21.2.5)
 >
 > Complie Options:  -O3 -std=c++11
@@ -52,7 +54,7 @@ run 10000000 * loop times where loop=100000
 12.pointer_double_virtual_inheritance	 run time: 	1.18064e+07	micro second
 ```
 
-- #### All Cases
+#### All Cases
 
 ```shell
 run 10000000 * loop times where loop=1
