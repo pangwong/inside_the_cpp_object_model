@@ -89,16 +89,18 @@ run 10000000 * loop times where loop=100000000
 #### Virtual Functions
 
 ```shell
-05.si_virtual_member_function_primary_base  	 run time: 	153115	micro second
-06.si_virtual_member_function_secondary_base	 run time: 	248642	micro second
-07.mi_virtual_member_function_primary_base  	 run time: 	166289	micro second
-08.mi_virtual_member_function_secondary_base	 run time: 	200682e	micro second
-09.vi_virtual_member_function               	 run time: 	144707e	micro second
+run 10000000 * loop times where loop=10
+05.si_virtual_member_function_primary_base  	 run time: 	168602	micro second
+06.si_virtual_member_function_secondary_base	 run time: 	157024	micro second
+07.mi_virtual_member_function_primary_base  	 run time: 	152839	micro second
+08.mi_virtual_member_function_secondary_base	 run time: 	197000	micro second
+09.vi_virtual_member_function               	 run time: 	157466	micro second
 ```
 
 #### Non-Virtual Functions Pointers
 
 ```shell
+run 10000000 * loop times where loop=10
 10.ni_nonmember_function_pointer                    	 run time: 	218986	micro second
 11.ni_nonstatic_member_function_pointer             	 run time: 	219323	micro second
 12.ni_static_member_function_pointer                	 run time: 	227311	micro second
@@ -139,7 +141,6 @@ run 10000000 * loop times where loop=10
 17.mi_virtual_member_function_pointer_secondary_base	 run time: 	145503	micro second
 18.vi_virtual_member_function_pointer               	 run time: 	175097	micro second
 ```
-
 
 
 ## Different Compile Option
@@ -185,4 +186,3 @@ run 10000000 * loop times where loop=10
 03.class_inline_get_reference      	 run time: 	0.25	micro second
 04.class_inline_get_set            	 run time: 	0.233	micro second
 ```
-
